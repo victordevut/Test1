@@ -30,6 +30,7 @@
         {
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.SuspendLayout();
             // 
             // labelControl1
@@ -48,11 +49,20 @@
             this.labelControl2.TabIndex = 1;
             this.labelControl2.Text = "Hola de Daniel";
             // 
+            // labelControl3
+            // 
+            this.labelControl3.Location = new System.Drawing.Point(12, 77);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(66, 13);
+            this.labelControl3.TabIndex = 2;
+            this.labelControl3.Text = "Hola de Victor";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(632, 278);
+            this.Controls.Add(this.labelControl3);
             this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.labelControl1);
             this.Name = "Form1";
@@ -66,6 +76,7 @@
 
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.LabelControl labelControl2;
+        private DevExpress.XtraEditors.LabelControl labelControl3;
     }
 }
 
